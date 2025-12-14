@@ -1,0 +1,166 @@
+{
+  "data_analyst": {
+    "skills": {
+      "excel": [
+        {
+          "title": "Excel for Data Analysis (Full Course)",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=pCJ15nGFgVg"
+        },
+        {
+          "title": "Data Analysis in Excel (Coursera / Duke)",
+          "platform": "Coursera",
+          "url": "https://www.coursera.org"
+        }
+      ],
+      "python": [
+        {
+          "title": "Python for Data Science, AI & Development (IBM)",
+          "platform": "Coursera",
+          "url": "https://www.coursera.org/learn/python-for-applied-data-science-ai"
+        },
+        {
+          "title": "Python Full Course (freeCodeCamp)",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=rfscVS0vtbw"
+        }
+      ],
+      "sql": [
+        {
+          "title": "SQL for Data Science",
+          "platform": "Coursera",
+          "url": "https://www.coursera.org/learn/sql-for-data-science"
+        }
+      ],
+      "tableau": [
+        {
+          "title": "Tableau for Beginners - Full Course",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=9k7h8qIgqEk"
+        }
+      ]
+    },
+    "cluster_courses": {
+      "Beginner": [
+        {
+          "title": "Google Data Analytics Professional Certificate",
+          "platform": "Coursera",
+          "url": "https://www.coursera.org/professional-certificates/google-data-analytics"
+        }
+      ],
+      "Intermediate": [
+        {
+          "title": "Data Analysis with Python (IBM)",
+          "platform": "Coursera",
+          "url": "https://www.coursera.org/learn/data-analysis-with-python"
+        }
+      ],
+      "Advanced": [
+        {
+          "title": "Applied Data Science Capstone / Specialization",
+          "platform": "Coursera",
+          "url": "https://www.coursera.org"
+        }
+      ]
+    }
+  },
+  "machine_learning": {
+    "skills": {
+      "ml_basics": [
+        {
+          "title": "Machine Learning (Andrew Ng)",
+          "platform": "Coursera",
+          "url": "https://www.coursera.org/learn/machine-learning"
+        },
+        {
+          "title": "Machine Learning with Python (IBM)",
+          "platform": "Coursera",
+          "url": "https://www.coursera.org"
+        }
+      ],
+      "deep_learning": [
+        {
+          "title": "Deep Learning Specialization",
+          "platform": "Coursera (DeepLearning.AI)",
+          "url": "https://www.coursera.org/specializations/deep-learning"
+        }
+      ],
+      "ml_tools": [
+        {
+          "title": "Practical Deep Learning for Coders (fast.ai)",
+          "platform": "fast.ai",
+          "url": "https://course.fast.ai"
+        }
+      ]
+    },
+    "cluster_courses": {
+      "Beginner": [
+        {
+          "title": "Intro to Machine Learning with Python (Udemy/Various)",
+          "platform": "Udemy",
+          "url": "https://www.udemy.com"
+        }
+      ],
+      "Intermediate": [
+        {
+          "title": "Machine Learning by Andrew Ng",
+          "platform": "Coursera",
+          "url": "https://www.coursera.org/learn/machine-learning"
+        }
+      ],
+      "Advanced": [
+        {
+          "title": "Deep Learning Specialization (Andrew Ng)",
+          "platform": "Coursera",
+          "url": "https://www.coursera.org/specializations/deep-learning"
+        }
+      ]
+    }
+  },
+  "software_developer": {
+    "skills": {
+      "programming": [
+        {
+          "title": "CS50's Introduction to Computer Science",
+          "platform": "edX/YouTube",
+          "url": "https://www.edx.org/course/cs50s-introduction-to-computer-science"
+        },
+        {
+          "title": "Java Programming and Software Engineering Fundamentals",
+          "platform": "Coursera",
+          "url": "https://www.coursera.org/specializations/java-programming"
+        }
+      ],
+      "ds_algo": [
+        {
+          "title": "Data Structures - Full Course",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=8hly31xKli0"
+        }
+      ]
+    },
+    "cluster_courses": {
+      "Beginner": [
+        {
+          "title": "Programming Foundations and Basic DSA",
+          "platform": "YouTube/Coursera",
+          "url": "https://www.coursera.org"
+        }
+      ],
+      "Intermediate": [
+        {
+          "title": "Full-Stack Web Development with React",
+          "platform": "Coursera",
+          "url": "https://www.coursera.org"
+        }
+      ],
+      "Advanced": [
+        {
+          "title": "System Design / Engineering Interview Prep",
+          "platform": "Udemy/YouTube",
+          "url": "https://www.udemy.com"
+        }
+      ]
+    }
+  }
+}

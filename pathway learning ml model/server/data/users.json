@@ -1,0 +1,48 @@
+[
+  {
+    "email": "rounaksingh2303@gmail.com",
+    "password": "a4d582982d353cc03d2845c4b8b321a5:0591fcb95276229a97f97ec947ef9b3df6703f17a0668fe8fb103e1dde9ca4ed91b848a9f9437bc1f89d22b961be24cc3458701d4314e23b85e15ff3c0212eda",
+    "displayName": "rounak singh",
+    "photoURL": "https://ui-avatars.com/api/?name=rounak%20singh&background=6366f1&color=fff",
+    "id": "user_1762006382784_68naa7joj",
+    "createdAt": "2025-11-01T14:13:02.784Z",
+    "lastLogin": "2025-11-07T20:06:29.994Z",
+    "resetToken": "c17552fab2af68e4cae70daa6aa9e9b43cbef2a787fa0336ace1311b0322c853",
+    "resetTokenExpiry": "2025-11-01T15:13:33.354Z",
+    "username": "rounaksingh2303",
+    "academicYear": 1
+  },
+  {
+    "username": "rounaksingh230",
+    "email": "rounaksingh230@gmail.com",
+    "password": "efdc35c0bf2a1949c32c1c2d8fa5c2f5:3db7301a06d1c78ecf8f703fd0f029c8873f6233ec7b06a1a868033fc910f684b865725a198cae08a1828a2ca86390312548c2907f04d8d5307b633e4dd15ad2",
+    "displayName": "shrayash",
+    "photoURL": "https://ui-avatars.com/api/?name=shrayash&background=6366f1&color=fff",
+    "academicYear": 1,
+    "id": "user_1762535583251_04whzhaz7",
+    "createdAt": "2025-11-07T17:13:03.252Z",
+    "lastLogin": "2025-11-07T20:06:02.403Z"
+  },
+  {
+    "username": "rounaksingh23",
+    "email": "rounaksingh23@gmail.com",
+    "password": "fd0e8f23b61dadc46621d39bf0f3a2d1:42dc29e3f71d3f20904575fdf9c2005b93269fca38c70254715af2b797673a8ad60b5575bb428388b84b1c4a98a1aad199b06da0c72e6fc4ab6185191d1194a0",
+    "displayName": "ishitva",
+    "photoURL": "https://ui-avatars.com/api/?name=ishitva&background=6366f1&color=fff",
+    "academicYear": 1,
+    "id": "user_1762536037413_bf46r6nr9",
+    "createdAt": "2025-11-07T17:20:37.413Z",
+    "lastLogin": "2025-11-07T17:20:37.413Z"
+  },
+  {
+    "username": "rounaksingh3",
+    "email": "rounaksingh3@gmail.com",
+    "password": "c148fc0267e775b084f802beadc2473f:dbae6aee969e0e6681511f1a65be1f259e814888a8f46f6c5d3ec0c38a74758fd6cedc7687c84b4e06213aad947e617b21ae30e9ddda3deb49be166a07ec0629",
+    "displayName": "ish",
+    "photoURL": "https://ui-avatars.com/api/?name=ish&background=6366f1&color=fff",
+    "academicYear": 1,
+    "id": "user_1762544781269_pxuas7b4s",
+    "createdAt": "2025-11-07T19:46:21.269Z",
+    "lastLogin": "2025-11-07T19:46:21.269Z"
+  }
+]

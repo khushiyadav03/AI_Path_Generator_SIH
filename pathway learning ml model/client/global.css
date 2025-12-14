@@ -1,0 +1,130 @@
+/** @import must precede all other statements */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /**
+   * Tailwind CSS theme
+   * tailwind.config.ts expects the following color variables to be expressed as HSL values.
+   * A different format will require also updating the theme in tailwind.config.ts.
+  */
+  :root {
+    --background: 222 60% 99%;
+    --foreground: 240 10% 10%;
+
+    --card: 0 0% 100% / 0.6;
+    --card-foreground: 240 10% 10%;
+
+    --popover: 0 0% 100% / 0.6;
+    --popover-foreground: 240 10% 10%;
+
+    --primary: 258 90% 60%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 198 90% 55%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 216 33% 92%;
+    --muted-foreground: 220 15% 46%;
+
+    --accent: 224 85% 60%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 14% 90%;
+    --input: 220 14% 90%;
+    --ring: 258 90% 60%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 222 60% 99%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 258 90% 60%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 216 33% 92%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 240 10% 6%;
+    --foreground: 210 40% 98%;
+
+    --card: 240 10% 10% / 0.6;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 240 10% 10% / 0.6;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 258 100% 72%;
+    --primary-foreground: 240 10% 10%;
+
+    --secondary: 198 100% 60%;
+    --secondary-foreground: 240 10% 10%;
+
+    --muted: 240 10% 14%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 224 100% 62%;
+    --accent-foreground: 240 10% 10%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 240 10% 18%;
+    --input: 240 10% 18%;
+    --ring: 258 100% 72%;
+    --sidebar-background: 240 6% 8%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 258 100% 70%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 10% 14%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 10% 14%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    background-image: radial-gradient(1200px 500px at 10% 10%, hsl(var(--accent)/0.15), transparent),
+      radial-gradient(1000px 500px at 90% 20%, hsl(var(--secondary)/0.15), transparent),
+      radial-gradient(800px 400px at 50% 100%, hsl(var(--primary)/0.12), transparent);
+    background-attachment: fixed;
+  }
+
+  :where(p, span, li, h1, h2, h3, h4, h5, h6, a, button, label, td, th) {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  pre,
+  code {
+    overflow-x: auto;
+    white-space: pre;
+  }
+}
+
+/* Glassmorphism utility */
+.glass {
+  @apply bg-white/10 dark:bg-white/5 backdrop-blur-xl border border-white/20 shadow-xl;
+}
+
+/* Gradient text utility */
+.gradient-text {
+  background: linear-gradient(90deg, hsl(var(--primary)), hsl(var(--accent)), hsl(var(--secondary)));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
