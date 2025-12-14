@@ -280,17 +280,27 @@ npm install
 
 ## ▶️ How to Run
 
-### Start the Backend (Terminal 1)
+### Option 1: One-Click Run (Windows)
+We have provided a unified script to automate setup and startup.
 
+1. Double-click **`run_project.bat`** in the root directory.
+   - OR run via terminal: `.\run_project.bat`
+
+This script will:
+- Check/Create Python virtual environment (`backend/venv_new`)
+- Run setup (generate data/models)
+- Install frontend dependencies
+- Start the application at `http://localhost:5173`
+
+### Option 2: Manual Run
+
+#### Start the Backend
 ```bash
 cd backend
 python3 inference.py
 ```
 
-The ML inference server will start and wait for requests.
-
-### Start the Frontend (Terminal 2)
-
+#### Start the Frontend
 ```bash
 cd "pathway learning ml model"
 npm run dev

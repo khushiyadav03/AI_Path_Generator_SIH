@@ -53,13 +53,13 @@ class LearnerProfiler:
         if user_vector.ndim == 1:
             user_vector = user_vector.reshape(1, -1)
         
-        # KMeans was likely trained with float32, so convert to float32
-        user_vector = np.ascontiguousarray(user_vector, dtype=np.float32)
+        # KMeans was trained with float64, so ensure consistency
+        user_vector = np.ascontiguousarray(user_vector, dtype=np.float64)
             
         if self.pca:
             user_vector = self.pca.transform(user_vector)
-            # Ensure float32 after PCA transform as well
-            user_vector = np.ascontiguousarray(user_vector, dtype=np.float32)
+            # Ensure float64 after PCA transform as well
+            user_vector = np.ascontiguousarray(user_vector, dtype=np.float64)
             
         return int(self.kmeans.predict(user_vector)[0])
 
